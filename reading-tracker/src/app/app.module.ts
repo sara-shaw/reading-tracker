@@ -7,6 +7,7 @@ import { AuthComponent } from './auth/auth.component';
 import { CurrentlyReadingComponent } from './currently-reading/currently-reading.component';
 import { WantToReadComponent } from './want-to-read/want-to-read.component';
 import { ReadComponent } from './read/read.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -15,12 +16,10 @@ import { ReadComponent } from './read/read.component';
     AuthComponent,
     CurrentlyReadingComponent,
     WantToReadComponent,
-    ReadComponent
+    ReadComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
