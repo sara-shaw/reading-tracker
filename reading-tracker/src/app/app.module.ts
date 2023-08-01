@@ -8,6 +8,7 @@ import { CurrentlyReadingComponent } from './currently-reading/currently-reading
 import { WantToReadComponent } from './want-to-read/want-to-read.component';
 import { ReadComponent } from './read/read.component';
 import { AppRoutingModule } from './app-routing.module';
+import { BookDetailComponent } from './currently-reading/book-detail/book-detail.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
     CurrentlyReadingComponent,
     WantToReadComponent,
     ReadComponent,
+    BookDetailComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
