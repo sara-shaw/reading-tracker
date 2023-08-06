@@ -1,9 +1,21 @@
 <a style="cursor: pointer;" routerLinkActive="active" class="list-group-item clearfix">
-    <div class="pull-left">
-        <h4 class="list-group-item-heading">Book Name</h4>
-        <p class="list-group-item-text">Book Author</p>
+    <div class="row">
+        <div class="col-xs-2">
+            <img src="../../../assets/img/profpic.jpg" alt="" class="img-responsive" style="max-height: 100px;">
+        </div>
+        <div class="col-md-10">
+            <h4>Book Name</h4>
+            <h5>Book Author</h5>
+        </div>
+        <div>
+            <button class="btn btn-danger">Delete</button>
+        </div>
     </div>
-    <span class="pull-right">
-        <img src="" alt="" class="img-responsive" style="max-height: 50px;">
-    </span>
+    <div class="row slider-container">
+        <p>0</p>
+        <input type="range" min="1" class="slider" id="pageSlider">
+        <p>350</p>
+    </div>
+    <label for="name">Notes</label>
+    <textarea name="notes" id="notes" cols="30" rows="10"></textarea>
 </a>
